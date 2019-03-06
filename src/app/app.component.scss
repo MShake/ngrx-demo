@@ -1,0 +1,21 @@
+.app-container {
+  background: #f6f9fa;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+  h1 {
+    color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+}
+
+#toolbar {
+  background: #451771;
+  font-weight: bold;
+  font-size: 18pt;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}

@@ -1,0 +1,7 @@
+<div class="container">
+  <div *ngIf="!(tickets$ | async)?.length">
+    No tickets, add one to get started.
+  </div>
+  <ticket-item *ngFor="let ticket of (tickets$ | async)" [ticket]="ticket">
+  </ticket-item>
+</div>

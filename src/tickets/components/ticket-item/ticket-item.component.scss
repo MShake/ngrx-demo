@@ -1,0 +1,24 @@
+.ticket {
+  color: rgba(38, 41, 58, 0.6);
+  cursor: pointer;
+  width: 35%;
+  border-radius: 5px;
+  //border: 1px solid rgb(88, 88, 88);
+  margin: 25px;
+  padding: 5px;
+  padding-left: 15px;
+  border: 1px solid rgba(38, 41, 58, 0.1);
+  background: #fff;
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+.ticket:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
