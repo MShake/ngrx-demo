@@ -2,15 +2,14 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TicketItemComponent } from './ticket-item.component';
 
-describe('TicketItemComponent', () => {
+xdescribe('TicketItemComponent', () => {
   let component: TicketItemComponent;
   let fixture: ComponentFixture<TicketItemComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TicketItemComponent ]
-    })
-    .compileComponents();
+      declarations: [TicketItemComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
